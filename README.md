@@ -6,7 +6,7 @@ You were hired to build a system to manage Evry's University. Your job is to cre
 [Fork](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#:~:text=No%20canto%20superior%20direito%20da%20p%C3%A1gina%2C%20clique%20em%20Criar%20Fork.) this repository and create your main branch based on your name (firstname-lastname)
 
 ```
-git clone git@github.com:thiago-buarqque/evry-s-university.git
+git clone your_fork_ssh.git
 cd evry-s-university
 git checkout -b firstname-lastname
 ```
@@ -26,7 +26,7 @@ git checkout -b firstname-lastname
     - Dates
 - Design pattern (Singleton)
 
-# E N T I T I E S
+# ENTITIES
 
 1. **Employee**
    - `employeeId`: Long
@@ -94,26 +94,26 @@ git checkout -b firstname-lastname
 11. **EmployeeRole** (enum)
    - 'Dean', 'Secretary'
    
-# R E Q U I R E M E N T S
+# REQUIREMENTS
 
 
 1. The `Student` must be able to:
-    a. Check their current classes;
-    b. Check past classes (the class must show the student's grade);
-    c. Quit a class.
-2. The `Professor` must be able to:
-    a. Grade students;
-    b. List their classes;
-    c. List the students from a `Class`. In this functionality, you must present the option to sort the students by alphabetical order (a to z or z to a). Sort the students using Merge Sort or Quick Sort. If you have difficulties coding these algorithms, code the Selection Sort.
-3. The `Secretary` employee must be able to:
-    a. Add/remove/update students;
-    b. Add/remove students from a course;
-    c. Add/remove students from classes;
-    d. Close classes (if a class has the endDate set, it's closed, nothing in it can be updated)
-4. The `Dean` employee must be able to do everything the Secretary can plus:
-    a. Add/remove employees
+    - Check their current classes;
+    - Check past classes (the class must show the student's grade);
+    - Quit a class.
+3. The `Professor` must be able to:
+    - Grade students;
+    - List their classes;
+    - List the students from a `Class`. In this functionality, you must present the option to sort the students by alphabetical order (a to z or z to a). Sort the students using Merge Sort or Quick Sort. If you have difficulties coding these algorithms, code the Selection Sort.
+5. The `Secretary` employee must be able to:
+    - Add/remove/update students;
+    - Add/remove students from a course;
+    - Add/remove students from classes;
+    - Close classes (if a class has the endDate set, it's closed, nothing in it can be updated)
+7. The `Dean` employee must be able to do everything the Secretary can plus:
+    - Add/remove employees
 
-# N O T E S
+# NOTES
 
 - Use the employeeId and studentId as the identifier to log in to the system (this is the matrícula), there is no password for now.
 - Create a global class that will act as a database, and use the **Singleton** design pattern to access it when needed. The `Database` class would look like this.
