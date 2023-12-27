@@ -9,9 +9,11 @@ You were hired to build a system to manage Evry's University. Your job is to cre
 git clone your_fork_ssh.git
 cd evry-s-university
 git checkout -b firstname-lastname
+git push origin firstname-lastname
+git checkout -b funcionality-1
 ```
 
-**Do not code into the main branch, it will give you an error when uploading to Github. You must use your branch to perform your exercises and send a PR every time a functionality is ready or you want a review for some reason.**
+**Do not code into the main branch, it will give you an error when uploading to Github. You must use your branch to perform your exercises and send a PR every time a functionality is ready or you want a review for some reason. The PR must be sent from funcionality-x branch to your main branch (firstname-lastname)**
 
 > Note: If you find something that is not coherent, let me know.
 
