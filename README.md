@@ -3,7 +3,7 @@ You were hired to build a system to manage Evry's University. Your job is to cre
 
 ## How to start?
 
-Clone this repository and create your main branch based on your name (firstname-lastname)
+[Fork](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#:~:text=No%20canto%20superior%20direito%20da%20p%C3%A1gina%2C%20clique%20em%20Criar%20Fork.) this repository and create your main branch based on your name (firstname-lastname)
 
 ```
 git clone git@github.com:thiago-buarqque/evry-s-university.git
